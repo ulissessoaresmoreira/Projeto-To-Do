@@ -64,6 +64,57 @@ article{
     height: 25vh;
 }
 
+.calendar{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.week{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0 10px 0;
+}
+
+.week li{
+    background-color: coral;
+    list-style: none;
+    text-align: right;
+    width: 40px;
+    height:20px;
+}
+
+.container{
+    display: flex;
+    
+}
+
+
+.day{
+    color: aqua;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.unit{
+    background-color: darkgreen;
+    width: 100px;
+    height: 24px;
+}
+
+.day li{
+    width: 75px;
+    height:25px;
+    list-style: none;
+    text-align: center;
+    
+}
+
+
 aside{
     background-color: crimson;
     max-width: 250px;
