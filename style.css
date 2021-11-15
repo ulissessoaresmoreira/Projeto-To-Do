@@ -1,11 +1,19 @@
+
 *{ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: rgb(33, 218, 218);
+    background-color: black;
     justify-content: center;
     max-width: 950px;
     width: 100vh;
@@ -13,25 +21,37 @@ body{
 
 }
 
-header{
-    background-color: blanchedalmond;
-    
+.header{
+    background-color: rgb(114, 105, 91);
+    font-size: 1.2rem;
     margin-top: 10px;
     text-align: center;
     max-width: 1000px;
     width: 100vh;
-    height:90px;
+    height:150px;
     padding:10px;
     
 }
 
 nav{
     background-color: blue;
-    margin: auto;
-    text-align: center;
+    display: flex;
+    margin:auto;
+    margin-top: 45px;
     max-width: 950px;
     width: 95vh;
+    height: 60px;
     padding:2px;
+}
+
+.menu{
+    display:flex;
+}
+
+.menu li{
+    display: flex;
+    justify-content: end; 
+    margin-left: 15px;
 }
 
 main{
@@ -79,7 +99,7 @@ article{
 
 .week li{
     background-color: coral;
-    list-style: none;
+    
     text-align: center;
     width: 75px;
     height:25px;
@@ -93,27 +113,69 @@ article{
 
 .day{
     color: aqua;
-    background-color: blue;
+    background-color: rgb(202, 35, 35);
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 580px;
+    height:160px;
 }
 
+
+.notePad {
+    background-color: black;
+    position:absolute;
+    left: -1000px; /* numero para cobrir 225px */
+    width: 580px;
+    height:160px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+
+
 .unit{
-    background-color: darkgreen;
+    background-color: rgb(240, 208, 69);
     width: 100px;
     height: 24px;
 }
 
+.unit:hover{
+    color: crimson;
+    background-color: #f1f1f7;
+    width:80px;
+    height: 48px;
+    cursor: pointer;
+}
+
 .unitt{
     margin-left: -0px;
-    background-color: darkgreen;
+    background-color: rgb(240, 208, 69);
+}
+
+.unitt:hover{
+    color: crimson;
+    background-color: #f1f1f7;
+    width:80px;
+    height: 48px;
+    cursor: pointer;
 }
 
 .unitl{
     margin-right: 337px;
-    background-color: darkgreen;
+    background-color: rgb(240, 208, 69);
+}
+
+.unitl:hover{
+    color: crimson;
+    background-color: #f1f1f7;
+    width:80px;
+    height: 48px;
+    cursor: pointer;
 }
 
 .open{
@@ -146,4 +208,3 @@ footer{
     height: 50px;
     margin-top: 10px;
 }
-
