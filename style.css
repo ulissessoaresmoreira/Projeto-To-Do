@@ -126,7 +126,7 @@ article{
 .notePad {
     background-color: black;
     position:absolute;
-    left: -1000px; /* numero para cobrir 225px */
+    left: -100%; /* numero para cobrir 225px */
     width: 580px;
     height:160px;
     display: flex;
@@ -146,6 +146,8 @@ article{
 
 .unit:hover{
     color: crimson;
+    font-weight: bold;
+    font-size: 25px;
     background-color: #f1f1f7;
     width:80px;
     height: 48px;
@@ -159,6 +161,8 @@ article{
 
 .unitt:hover{
     color: crimson;
+    font-weight: bold;
+    font-size: 25px;
     background-color: #f1f1f7;
     width:80px;
     height: 48px;
@@ -172,6 +176,8 @@ article{
 
 .unitl:hover{
     color: crimson;
+    font-weight: bold;
+    font-size: 25px;
     background-color: #f1f1f7;
     width:80px;
     height: 48px;
